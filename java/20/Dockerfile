@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:20-jdk-alpine
+FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:20-jdk
 
 LABEL       author="Vladislav A4" maintainer="vladislav@gloffi.host"
 
