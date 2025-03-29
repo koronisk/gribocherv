@@ -6,10 +6,12 @@ export TZ
 INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
-# Switch to the container's working directory
+# Z
+uname -a
 
 # Print Java version
 java -version
+uptime
 
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
 # variable format of "${VARIABLE}" before evaluating the string and automatically
@@ -31,11 +33,6 @@ printf "
 
 "
 
-printf "/"
 ls
-printf "../"
-ls ../
-printf "../../"
-ls ../../
 # shellcheck disable=SC2086
 exec ${PARSED}
