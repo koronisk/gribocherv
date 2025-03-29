@@ -31,5 +31,11 @@ printf "
 
 "
 
+printf "/"
+ls
+printf "../"
+ls ../
+printf "../../"
+ls ../../
 # shellcheck disable=SC2086
 exec ${PARSED}
