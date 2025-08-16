@@ -7,11 +7,11 @@ INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
 # Z
-uname -a
+# uname -a
 
 # Print Java version
-java -version
-uptime
+# java -version
+# uptime
 
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
 # variable format of "${VARIABLE}" before evaluating the string and automatically
