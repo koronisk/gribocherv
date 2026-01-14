@@ -10,7 +10,6 @@ export INTERNAL_IP
 # uname -a
 
 # Print Java version
-# java -version
 # uptime
 
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
@@ -32,6 +31,7 @@ printf "
 
 "
 
-ls
+date
+# java -version
 # shellcheck disable=SC2086
 exec ${PARSED}
