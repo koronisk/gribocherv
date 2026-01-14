@@ -6,9 +6,6 @@ export TZ
 INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
-# Z
-# uname -a
-
 # Print Java version
 # uptime
 
