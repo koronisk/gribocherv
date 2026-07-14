@@ -1,4 +1,3 @@
-
 TZ=${TZ:-UTC}
 export TZ
 
@@ -6,7 +5,6 @@ INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
 PARSED=$(echo "${STARTUP}" | sed -e 's/{{/${/g' -e 's/}}/}/g' | eval echo "$(cat -)")
-
 
 printf "
 
@@ -18,8 +16,5 @@ printf "
            \/                             
 
 "
-
 date
 exec ${PARSED}
-
-#
