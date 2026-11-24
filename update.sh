@@ -1,3 +1,11 @@
+# Правила игры в казино: 
+# 1. Казино всегда в проигрыше 
+# 2. Казино это способ заработка. Депай все деньги 
+# 3. Не устанавливай баланс вывода заранее 
+# 4. Играй в плохом настроении. Это плюс 
+# 5. Не бери перерывы. Крути без остановок 
+# 6. Играй пьяным, это +100 к выигрышу
+
 docker pull ghcr.io/koronisk/gribocherv:java_8
 docker pull ghcr.io/koronisk/gribocherv:java_11
 docker pull ghcr.io/koronisk/gribocherv:java_16
